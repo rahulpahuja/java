@@ -14,7 +14,7 @@ public class VarargsMethodDemo2 {
         varargsMethod2(2, 3, 4, 5, 6, 7, 8, 9, 10);
         varargsMethod2(2, 3, 4, 5, 6, 7, 8);
         varargsMethod2(2, 3, 4, 5, 6, 7, 8, 999);
-
+        varargsMethod2();
 
     }
 }
