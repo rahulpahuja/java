@@ -10,9 +10,11 @@ public class SwapTest1 {
 
     //FIXME:Not working
     public static void main(String[] args) {
-        Integer x = 2;
-        Integer y = 9;
+//        Integer x = 2;
+        //      Integer y = 9;
 
+        int x = 2;
+        int y = 3;
         System.out.println("x:" + x + " and y:" + y);
         genericSwap(x, y);
         System.out.println("x:" + x + " and y:" + y);
