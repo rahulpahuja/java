@@ -1,6 +1,6 @@
 package com.rahul.pahuja.day2;
 
-public class VaragrsMethodDemo1 {
+public class VarargsMethodDemo1 {
     static void varargsMethod1(int[] v) {
         System.out.println("Number of args: " + v.length + " Elements: ");
         for (int x : v) {
