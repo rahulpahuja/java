@@ -2,6 +2,8 @@ package com.rahul.pahuja.day3;
 
 //Example 3.3
 public class SpecificArrayString {
+
+
     //declaring an array
     String[] a;
 
@@ -17,6 +19,7 @@ public class SpecificArrayString {
         specificArrayString.reverseString();
         System.out.println("Printing reverse of the existing thing");
         specificArrayString.printString();
+
     }
 
     /**
