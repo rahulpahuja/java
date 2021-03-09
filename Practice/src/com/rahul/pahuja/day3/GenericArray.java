@@ -44,5 +44,16 @@ class GenericArrayDemo {
         genericArray.reverseArray(x);
 
         genericArray.printData(x);
+
+        String[] a = {"R", "A", "H", "U", "L"};
+
+        GenericArray<String> genericArrayS = new GenericArray<>(a);
+
+        genericArrayS.printData(a);
+
+        genericArrayS.reverseArray(a);
+
+        genericArrayS.printData(a);
+
     }
 }
