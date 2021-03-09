@@ -55,5 +55,16 @@ class GenericArrayDemo {
 
         genericArrayS.printData(a);
 
+
+        Double[] z = {1.241, 1.242, 1.243, 1.244, 1.255};
+
+        GenericArray<Double> genericArrayD = new GenericArray<>(z);
+
+        genericArrayD.printData(z);
+
+        genericArrayD.reverseArray(z);
+
+        genericArrayD.printData(z);
+
     }
 }
